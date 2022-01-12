@@ -1,0 +1,18 @@
+1. backend 파일 그대로 가져옴
+2. yarn CRA
+3. .prettierrc, jsconfig.json 생성
+4. react-router-dom 설치. @6.2.1 임
+5. 프로젝트 처음 만들고 나서 설계 시작할때 가장 먼저 무엇을 하면 좋을까?
+	-> 라우터를 프로젝트에 설치하고 적용하는 것.
+	-> 주요 페이지의 라우트 컴포넌트를 미리 만듦.
+	-> 먼저 틀갖춰놓고 하나하나 개발하면 편함.
+6. src / pages : 라우트 관련 컴포넌트
+7. 컴포넌트 새로 작성할때 sfc
+	함수형 : rsc + enter
+	클래스형 : rcc + enter
+8. Pages 에 각 페이지 만듦.
+9. index.js 와 App.js 에서 라우팅 (v6)
+
+
+
+bundle, bundler, webpack 내용 공부해서 포스팅

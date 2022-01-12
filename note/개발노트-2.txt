@@ -1,0 +1,42 @@
+1. 라우팅 정의
+
+<Route path="/" element={<MainPage />} />
+컨텐츠는 about page 처럼 웹앱 소개
+
+<Route path="/admin" element={<AdminPage />} />
+관리자용 페이지
+
+<Route path="/login" element={<LoginPage />} />
+로그인 페이지
+
+<Route path="/map" element={<MapPage />} />
+지도 API 를 렌더링하고, 가상 장소를 선택할수 있는 페이지.
+
+<Route path="/:noticeId/*" element={<NoticePage />} />
+공지사항 페이지 ( 방식 미정 )
+
+<Route path="/:placeId/*" element={<PlacePage />} />
+가상 장소 페이지
+
+<Route path="/:placeId/@:username/*" element={<PieceListPage />} />
+Place 내에서 게시물인 Piece 목록을 보여주는 페이지.
+
+<Route path="/:placeId/@:username/:pieceId/*" element={<PiecePage />} />
+Place 내에서 게시물인 Piece 하나를 보는 게시물뷰어 페이지.
+
+<Route path="/:placeId/@:username/write" element={<WritePage />} />
+Place 내에서 게시물인 Piece 작성하는 페이지
+
+<Route path="/@:username/profile" element={<ProfilePage />} />
+사용자 프로필 페이지
+
+2.
+npm install -g npm 
+yarn install 
+yarn upgrade
+yarn add babel
+yarn add @emotion/react 
+
+이번 프로젝트는 emotion 으로 진행.
+
+3. 색상 팔레트 컴포넌트 만들기
