@@ -3,16 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.16.7",
+    "@emotion/babel-plugin-jsx-pragmatic": "^0.1.5",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@emotion/css": "^11.7.1",
+    "@emotion/eslint-plugin": "^11.7.0",
     "@emotion/react": "^11.7.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "babel": "^6.23.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^7.0.0",
+    "immer": "^9.0.12",
     "open-color": "^1.9.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "redux": "^4.1.2",
+    "redux-actions": "^2.6.5",
+    "redux-devtools-extension": "^2.13.9",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
@@ -38,5 +50,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "@emotion/babel-plugin": "^11.7.2"
   }
 }

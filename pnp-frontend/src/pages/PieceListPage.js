@@ -1,5 +1,7 @@
+import BlackButton from '../components/common/BlackButton';
+
 const PieceListPage = () => {
-  return <div>Piece 목록 페이지</div>;
+  return <div></div>;
 };
 
 export default PieceListPage;

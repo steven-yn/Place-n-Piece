@@ -1,5 +1,7 @@
 {
     "compilerOptions": {
-        "target": "es6"
+        "experimentalDecorators": true,
+        "target": "es6",
+        "jsxImportSource": "@emotion/react"
     }
 }

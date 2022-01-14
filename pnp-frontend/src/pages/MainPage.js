@@ -1,5 +1,11 @@
+import BlackButton from '../components/common/BlackButton';
+
 const MainPage = () => {
-  return <div>메인 페이지</div>;
+  return (
+    <div>
+      <BlackButton> 버튼 </BlackButton>
+    </div>
+  );
 };
 
 export default MainPage;
